@@ -18,5 +18,6 @@ executable('gtk-play',
       gtk_play_resources,
      'gtk-video-renderer.h',
      'gtk-video-renderer.c'],
-    dependencies : [glib_dep, gobject_dep, gmodule_dep, gst_dep, gsttag_dep, gstplayer_dep, gtk_dep, x11_dep])
+    dependencies : [glib_dep, gobject_dep, gmodule_dep, gst_dep, gsttag_dep, gstplayer_dep, gtk_dep, x11_dep],
+    install: true)
 
